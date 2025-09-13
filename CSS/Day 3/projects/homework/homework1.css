@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+#contailer {
+    height: 200px;
+    width: 300px;
+    background-color: #c50909;
+    position: relative;
+}
+
+#sub-container {
+    height: 120px;
+    width: 300px;
+    background-color: #060675;
+    position: absolute;
+    top: 40px;
+}
+
+#circle {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
